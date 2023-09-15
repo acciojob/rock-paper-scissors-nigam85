@@ -1,2 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
 
-/* Your CSS Code here. */
+h1 {
+  font-size: 24px;
+}
+
+.game-container {
+  display: none;
+  margin-top: 20px;
+}
+
+.options {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.option {
+  padding: 10px 20px;
+  font-size: 18px;
+}
+
+.results {
+  margin-top: 20px;
+}
+
+.game-result {
+  margin-top: 20px;
+  font-weight: bold;
+}
